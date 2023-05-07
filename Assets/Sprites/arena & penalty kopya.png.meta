@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: e56e03736413c574ab68b5d3dac023f0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arena & penalty kopya_3
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 126
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1dbdbb9f773b645888228a268ff9d3
+      internalID: 2033316311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arena & penalty kopya_5
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 125
+        width: 261
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90a6f0b89d8aa44abde1b94a2ffb5cf
+      internalID: 1052664114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      arena & penalty kopya_24: 1673819454
+      arena & penalty kopya_15: -1551852024
+      arena & penalty kopya_18: -1280056537
+      arena & penalty kopya_34: 1384560378
+      arena & penalty kopya_20: -1220035645
+      arena & penalty kopya_19: 68220540
+      arena & penalty kopya_17: 842868741
+      arena & penalty kopya_41: 1921812086
+      arena & penalty kopya_1: 1371397246
+      arena & penalty kopya_26: -433338615
+      arena & penalty kopya_7: 1323386576
+      arena & penalty kopya_37: -2104109941
+      arena & penalty kopya_23: -1454521090
+      arena & penalty kopya_11: 598242846
+      arena & penalty kopya_30: 1039857791
+      arena & penalty kopya_31: 1184437766
+      arena & penalty kopya_39: 476715774
+      arena & penalty kopya_44: -382327376
+      arena & penalty kopya_3: 2033316311
+      arena & penalty kopya_25: 45172441
+      arena & penalty kopya_36: 1973914210
+      arena & penalty kopya_13: -1125359822
+      arena & penalty kopya_33: -2112542844
+      arena & penalty kopya_35: -1725288795
+      arena & penalty kopya_22: 1999884753
+      arena & penalty kopya_14: 733327770
+      arena & penalty kopya_28: 2139258994
+      arena & penalty kopya_43: -983467529
+      arena & penalty kopya_29: -1997833683
+      arena & penalty kopya_27: 1909751161
+      arena & penalty kopya_10: -512720531
+      arena & penalty kopya_32: 346541862
+      arena & penalty kopya_4: 239448456
+      arena & penalty kopya_40: -1623443677
+      arena & penalty kopya_42: -1645315090
+      arena & penalty kopya_21: 1053674437
+      arena & penalty kopya_6: -89679377
+      arena & penalty kopya_16: -707648653
+      arena & penalty kopya_5: 1052664114
+      arena & penalty kopya_9: 684938815
+      arena & penalty kopya_38: 1865283156
+      arena & penalty kopya_2: 1064488102
+      arena & penalty kopya_0: -69754765
+      arena & penalty kopya_8: 1929515833
+      arena & penalty kopya_12: 285287482
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
