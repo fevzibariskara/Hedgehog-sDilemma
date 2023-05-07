@@ -139,12 +139,44 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
       propertyPath: maxAngle
-      value: -250
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: maxSpeed
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
       propertyPath: minAngle
       value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: minSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: forceTimer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: maxForceTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: collisionForce
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: maxForceDuration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: maxForceMagnitude
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2431734944737630121, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
       propertyPath: m_RootOrder
@@ -207,6 +239,38 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: maxSpeed
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: minSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: forceTimer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: maxForceTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: collisionForce
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: maxForceDuration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: maxForceMagnitude
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2431734944737630121, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -267,7 +331,7 @@ GameObject:
   - component: {fileID: 121583879}
   m_Layer: 3
   m_Name: Arena
-  m_TagString: Untagged
+  m_TagString: Arena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -658,6 +722,38 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: maxSpeed
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: minSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: forceTimer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: maxForceTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: collisionForce
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: maxForceDuration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: maxForceMagnitude
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2431734944737630121, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -714,6 +810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 830772492}
   - component: {fileID: 830772491}
+  - component: {fileID: 830772493}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -788,6 +885,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &830772493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830772490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa2fa270f43c6d8478d4d6697cc64e24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1270083401
 GameObject:
   m_ObjectHideFlags: 0
@@ -1159,12 +1268,44 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
       propertyPath: maxAngle
-      value: -250
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: maxSpeed
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
       propertyPath: minAngle
       value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: minSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: forceTimer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: maxForceTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: collisionForce
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: maxForceDuration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: maxForceMagnitude
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2431734944737630121, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
       propertyPath: m_RootOrder
@@ -1580,6 +1721,38 @@ PrefabInstance:
     - target: {fileID: 2431734944737630115, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: maxSpeed
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: minSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: forceTimer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: maxForceTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: collisionForce
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: maxForceDuration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431734944737630117, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+      propertyPath: maxForceMagnitude
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2431734944737630121, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
       propertyPath: m_RootOrder

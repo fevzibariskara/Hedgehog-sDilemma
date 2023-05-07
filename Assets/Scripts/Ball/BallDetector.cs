@@ -9,38 +9,55 @@ public class BallDetector : MonoBehaviour
     [SerializeField] private Vector3 _originalSize = new Vector3(0.6f, 0.6f, 1f);
 
     private bool _coroutineRunning;
+    private bool _isShrinking;
+    private Vector3 _targetScale;
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.attachedRigidbody.transform.tag == "Player")
         {
-            StartCoroutine(BallScale(_lerpTime, _originalSize));
+            StopAllCoroutines();
+            _targetScale = _originalSize;
+            StartCoroutine(BallScale(_lerpTime, _targetScale));
+            _isShrinking = true;
         }
     }
 
-    IEnumerator BallScale(float lerpTime, Vector3 scale)
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.attachedRigidbody.transform.tag == "Player")
+        {
+            StopAllCoroutines();
+            _targetScale = transform.localScale;
+            _isShrinking = false;
+        }
+    }
+
+    IEnumerator BallScale(float lerpTime, Vector3 targetScale)
     {
         _coroutineRunning = true;
         Vector3 currentScale = transform.localScale;
         float elapsedTime = 0f;
 
-        //Gradually expand object
+        // Gradually scale object
         while (elapsedTime < lerpTime)
         {
-            transform.localScale = Vector3.Lerp(currentScale, scale, (elapsedTime / lerpTime));
+            transform.localScale = Vector3.Lerp(currentScale, targetScale, (elapsedTime / lerpTime));
             elapsedTime += Time.deltaTime;
             yield return null;
         }
-        elapsedTime = 0f;
 
-        //Gradually contract object to original size
-        while (elapsedTime < lerpTime)
+        // Just to eliminate any floating point errors and ensure the object reaches the target scale
+        transform.localScale = targetScale;
+
+        // Check if the ball should start shrinking again
+        if (_isShrinking)
         {
-            transform.localScale = Vector3.Lerp(scale, currentScale, (elapsedTime / lerpTime));
-            elapsedTime += Time.deltaTime;
-            yield return null;
+            yield return new WaitForSeconds(1f); // Wait for 1 second before shrinking again
+            _targetScale = _originalSize;
+            StartCoroutine(BallScale(_lerpTime, _targetScale));
         }
-        //Just to eliminate any floating point errors and ensure the object returns to its original size
-        transform.localScale = currentScale;
+
         _coroutineRunning = false;
     }
 }
