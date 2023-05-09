@@ -385,7 +385,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 2033316311, guid: e56e03736413c574ab68b5d3dac023f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -595,6 +595,11 @@ PolygonCollider2D:
       - {x: 0.0546875, y: -0.48046875}
       - {x: 0.05078125, y: -0.484375}
       - {x: -0.0546875, y: -0.48046875}
+--- !u!4 &126332361 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2431734944737630121, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+  m_PrefabInstance: {fileID: 26246155}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &409219418
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,7 +658,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 1052664114, guid: e56e03736413c574ab68b5d3dac023f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1023,6 +1028,11 @@ MonoBehaviour:
     m_Bits: 0
   ballRadius: 0
   numOfBalls: 0
+--- !u!4 &931450057 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2431734944737630121, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+  m_PrefabInstance: {fileID: 2431734943812272992}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1270083401
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,6 +1286,11 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.49999997
+--- !u!4 &1438200548 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2431734944737630121, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+  m_PrefabInstance: {fileID: 1644536594}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1623260402
 GameObject:
   m_ObjectHideFlags: 0
@@ -1528,11 +1543,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ballPrefab: {fileID: 2431734944737630115, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
-  numberOfBalls: 5
-  ballLayer:
-    serializedVersion: 2
-    m_Bits: 256
-  spawnRadius: 3.5
+  spawnPoints:
+  - {fileID: 931450057}
+  - {fileID: 1438200548}
+  - {fileID: 126332361}
+  - {fileID: 1975224103}
+  - {fileID: 2068001674}
 --- !u!1 &1717877318
 GameObject:
   m_ObjectHideFlags: 0
@@ -1712,6 +1728,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1840751457}
   m_CullTransparentMesh: 1
+--- !u!4 &1975224103 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2431734944737630121, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+  m_PrefabInstance: {fileID: 635794384}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2053880729
 GameObject:
   m_ObjectHideFlags: 0
@@ -1887,6 +1908,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44ebdd76f8370904e88c3da95a78760f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &2068001674 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2431734944737630121, guid: ed99615e22cb5fb4695719189a42f34a, type: 3}
+  m_PrefabInstance: {fileID: 26664468}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2431734943812272992
 PrefabInstance:
   m_ObjectHideFlags: 0
