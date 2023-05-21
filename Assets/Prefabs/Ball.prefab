@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 2431734944737630115}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -141,8 +141,8 @@ MonoBehaviour:
   speed: 0.1
   maxSpeed: 2
   minSpeed: 0.1
-  minAngle: -20
-  maxAngle: 120
+  minAngle: -10
+  maxAngle: 100
   maxForceDuration: 1
 --- !u!114 &2431734944737630116
 MonoBehaviour:
@@ -168,5 +168,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4159253691a17c488a2e9de1da969de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _lerpTime: 3
-  _originalSize: {x: 0.6, y: 0.6, z: 1}
+  _lerpTime: 4
+  _originalSize: {x: 0.7, y: 0.7, z: 1}
